@@ -16,6 +16,9 @@ header {
   }
 }
 
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
 header nav {
   display: none;
 }
